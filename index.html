@@ -8,8 +8,14 @@
 	<script src="app.js"></script>
     <body>
 	<h1>Local association learning in JS, all in your brower</h1>
-		<p>You can understand better your bank bill, shopping list, or whatever you like ! No upload to a remote server is necessary ! You can open the networking tab in developer console to inspect request, non is being served!</p>
+		<p id="p1">You can understand better your bank bill, shopping list, or whatever you like ! No upload to a remote server is necessary ! You can open the networking tab in developer console to inspect request, non is being served!</p>
 
+<script>
+document.getElementById("p1").style.color = "blue";
+document.getElementById("p1").style.fontFamily = "Arial";
+document.getElementById("p1").style.fontSize = "larger";
+</script>
+	    
 		<p id="demo"></p>
 		Upload a CSV file:
 		<input type="file" id="csv-file" name="files"/>
