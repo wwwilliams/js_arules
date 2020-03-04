@@ -7,9 +7,19 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
 	<script src="app.js"></script>
     <body>
-	<h1>Local association learning in JS, all in your brower</h1>
-		<p>You can understand better your bank bill, shopping list, or whatever you like ! No upload to a remote server is necessary ! You can open the networking tab in developer console to inspect request, non is being served!</p>
+	<h1 id="h1">Local Association Learning in your Browser using JS</h1>
+		<p id="p1">Better understand your bank bill, or your shopping list! 
+	No upload to a remote server is necessary! Open the networking tab in the developer console to inspect request!</p>
 
+<script>
+document.getElementById("p1").style.color = "black";
+document.getElementById("p1").style.fontFamily = "sans-serif";
+document.getElementById("p1").style.fontSize = "larger";
+document.body.style.backgroundColor = "beige";
+document.getElementById("h1").style.borderStyle = "solid";
+document.getElementById("h1").style.color = "brown";
+</script>
+	    
 		<p id="demo"></p>
 		Upload a CSV file:
 		<input type="file" id="csv-file" name="files"/>
